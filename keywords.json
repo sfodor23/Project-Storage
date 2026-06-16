@@ -1,0 +1,42 @@
+{
+    "COLLEGE_KEYWORDS": [
+        "finals", "midterm", "midterms", "semester", "quarter",
+        "syllabus", "lecture", "professor", "prof", "ta", "teaching assistant",
+        "office hours", "thesis", "dissertation", "major", "minor",
+        "undergrad", "undergraduate", "grad student", "graduate student",
+        "college", "university", "campus",
+        "dorm", "dormitory", "roommate", "resident advisor", "dining hall",
+        "fraternity", "sorority", "greek life",
+        "gpa", "dean's list", "academic probation", "drop out",
+        "scholarship", "student loan", "tuition", "financial aid",
+        "application", "applying to college", "acceptance letter", "transfer student"
+    ],
+    "GAMING_KEYWORDS": [
+        "video game", "gaming", "gamer", "esport", "esports", "streamer", "streaming",
+        "twitch", "discord", "multiplayer", "online game", "console",
+        "playstation", "xbox", "nintendo", "steam", "pc game",
+        "minecraft", "league of legends", "world of warcraft", "dota", "dota 2",
+        "fortnite", "valorant", "call of duty", "roblox",
+        "grand theft auto", "overwatch", "apex legends",
+        "counter-strike", "counterstrike",
+        "addicted to gaming", "gaming addiction", "can't stop playing", "stop gaming",
+        "gaming disorder", "compulsive gaming", "game too much", "gaming too much",
+        "neglect", "withdrawal from gaming", "game all night", "game all day"
+    ],
+    "MENTAL_HEALTH_KEYWORDS": [
+        "anxiety", "anxious", "panic attack", "panic disorder",
+        "depression", "depressed", "depressive",
+        "mental health", "mental illness", "mental disorder",
+        "stress", "stressed", "burnout",
+        "addiction", "addicted",
+        "phobia", "agoraphobia", "social anxiety", "selective mutism",
+        "ocd", "obsessive compulsive",
+        "ptsd", "trauma",
+        "lonely", "loneliness", "isolated", "isolation",
+        "suicidal", "self-harm", "self harm",
+        "therapy", "therapist", "psychologist", "psychiatrist", "counseling",
+        "antidepressant", "medication",
+        "insomnia", "sleep", "sleeping problems",
+        "escape", "cope", "coping"
+    ]
+}

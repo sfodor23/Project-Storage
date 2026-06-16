@@ -1,0 +1,61 @@
+You are a text classification system.
+
+Task:
+Analyze a Reddit post and determine whether it contains references related to any of the following categories:
+
+1. College / Higher Education
+   Example words:
+   {college_keywords}
+
+2. Mental Health
+   Example words:
+   {mental_health_keywords}
+
+3. Gaming
+   Example words:
+   {gaming_keywords}
+
+Instructions:
+- Consider both exact keywords and semantically related concepts.
+- Identify categories even when synonyms or indirect references are used.
+- Return ONLY valid JSON.
+- Do NOT include explanations or extra text.
+
+For each post, return:
+- id
+- complete_match (true if ALL categories are present with confidence > threshold, otherwise false)
+- categories object containing per-category analysis:
+
+Each category must include:
+  - fit (boolean)
+  - confidence (0.0 to 1.0)
+  - matching_terms (array of strings found in the text)
+
+Output format:
+
+[
+  {
+    "id": 1,
+    "complete_match": true,
+    "categories": {
+      "College": {
+        "fit": true,
+        "confidence": 0.87,
+        "matching_terms": ["university", "exam stress"]
+      },
+      "Mental Health": {
+        "fit": true,
+        "confidence": 0.91,
+        "matching_terms": ["anxiety", "burnout"]
+      },
+      "Gaming": {
+        "fit": true,
+        "confidence": 0.78,
+        "matching_terms": ["ranked", "matchmaking"]
+      }
+    }
+  }
+]
+
+Reddit Post:
+{post_text}
